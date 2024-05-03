@@ -1,0 +1,247 @@
+
+
+
+body{
+  background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+/* stylinf for each individual tasks like pending etc....*/
+.Cont3{
+  min-width: 18%;
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+  min-height: 30%;
+  border-radius: 10px;
+  font-family: new;
+  font-size: 10px;
+
+  @font-face {
+    font-family: new;
+    src: url(${roboto});
+    font-style: normal;
+  }
+
+  #Pend {
+    background-color: #999a9a;
+
+    padding: 10px;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 20px;
+  }
+   #Completed{
+    background-color: #1fc252;
+    padding: 10px;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  #Inpro{
+    background-color: orange;
+    padding: 10px;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  #Deffer{
+    background-color: #ff92a4;
+    padding: 10px;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  #Deploy{
+    background-color: #2e2c53;
+    padding: 10px;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 20px;
+  }
+
+  hr {
+    width: 100%;
+    margin: 0;
+  }
+  .dot {
+    right: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #476495;
+    color: white;
+    width: 20%;
+    margin-left: auto;
+  }
+}
+.TaskHead{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .prio {
+    background-color: #476495;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    margin: 0;
+  }
+}
+.Task{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #e1d3d3a1;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: justify;
+
+  .user-and-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .dot {
+      display: grid;
+      place-items: center;
+      width: 30px;
+      height: 40px;
+      align-items: center;
+    }
+    .dot div {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: white;
+    }
+  }
+  .assign {
+    width: 50%;
+    margin: 10px;
+    align-self: flex-start;
+    font-size: 10px;
+    background-color: #476495;
+    border: none;
+    outline: none;
+    width: 50%;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    appearance: none;
+    text-align: center;
+  }
+}
+
+/* FOR MAIN COMPONENT1===============*/
+
+.Container1 {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 50vw;
+  min-height: 50vh;
+  border: 2px solid white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px white;
+}
+
+  @font-face {
+    font-family: new;
+    src: url(${roboto});
+  }
+
+
+  label {
+    font-size: 20px;
+    font-family: new;
+    margin: 10px;
+  }
+  
+
+  .Headcomp input {
+    min-width: 50%;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  .rec {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    align-items: center;
+    padding: 5px;
+  }
+  .rec input {
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  select {
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  .Headcomp {
+    display: flex;
+    align-items: center;
+  }
+
+  .AddTask {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sortby {
+    display: flex;
+    flex-direction: row;
+  }
+  .stat h3 {
+    background-color: #999a9a;
+    height: 40px;
+    padding: 2px;
+    color: white;
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  .components {
+    display: flex;
+
+    min-width: 50vw;
+    background-color: green;
+  }
+
+.Comp {
+  display: flex;
+  flex-direction: row;
+}
+
