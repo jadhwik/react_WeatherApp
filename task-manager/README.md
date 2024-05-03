@@ -9,12 +9,15 @@ ugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugi
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 This is a ToDo list created with different idea. The features of the react app are:
+
 1.Different sections of task stattus are added like pending,completed etc...
+
 2.The user can edit some fields like priority,task status.
+
 3.Also local storage is used to store the data which will stay  untill it is deleted.
+
 4.The user can also filter the tasks based on the priority and assignee name.
 
 This the Todo List
 
-- [@vitejs/pl![Uploading todo.png…]()
 
