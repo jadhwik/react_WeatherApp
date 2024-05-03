@@ -18,6 +18,17 @@ This is a ToDo list created with different idea. The features of the react app a
 
 4.The user can also filter the tasks based on the priority and assignee name.
 
-This the Todo List
+Edit options:
 
 
+
+
+
+![edittask](https://github.com/jadhwik/React-beginner-projects/assets/99212318/0e3f333c-91ce-440d-b990-afef50ce8f99)
+
+
+Delete confirmation:
+
+
+
+![delete](https://github.com/jadhwik/React-beginner-projects/assets/99212318/4a5d6e7a-d4f2-4a6d-81ff-8e185479ed49)
