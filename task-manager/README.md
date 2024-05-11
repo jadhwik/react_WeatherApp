@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![todo](https://github.com/jadhwik/React-beginner-projects/assets/99212318/a180dbf7-f2cd-40a5-8701-c99ea5b335f0)# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -32,3 +33,6 @@ Delete confirmation:
 
 
 ![delete](https://github.com/jadhwik/React-beginner-projects/assets/99212318/4a5d6e7a-d4f2-4a6d-81ff-8e185479ed49)
+=======
+# toD0_list
+>>>>>>> a6bc97c63cb27ff14ff32f6aea4617c7e657fa39

@@ -9,9 +9,9 @@ const Day3 = ({ data }) => {
   const [desc, setDesc] = useState("");
   useEffect(() => {
     if (data && data.list.length > 0) {
-      setTemp(data.list[20].main.temp);
-      setDay(getDayName(data.list[20].dt_txt));
-      setDesc(data.list[20].weather[0].main);
+      setTemp(data.list[23].main.temp);
+      setDay(getDayName(data.list[23].dt_txt));
+      setDesc(data.list[23].weather[0].main);
     }
   }, [data]);
   return (
