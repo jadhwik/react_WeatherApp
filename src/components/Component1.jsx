@@ -18,10 +18,9 @@ const Component1 = () => {
   const [desc, setDesc] = useState("");
   const [time, setTime] = useState();
   const [dtText, setDt] = useState("");
-  let apiKey = "2fd6c28bb601381ff38d8d61723253d0";
 
   const fetchData = async () => {
-    const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=2fd6c28bb601381ff38d8d61723253d0`;
+    const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid={your_api_here}`;
     const response = await fetch(url);
     const resJson = await response.json();
     console.log(resJson);
